@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .exemplo {
+            background-color: orange;
+            border: 3px solid purple;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+        }
+
+        #hidden {
+            overflow: hidden;
+        }
+
+        #scroll {
+            overflow: scroll;
+        }
+
+        #auto {
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Propriedade <code>overflow</code></h2>
+    <p>Controla como o conteúdo dever ser exibido caso ultrapasse os limites do container.</p>
+
+    <i>Exemplos:</i> <br><br><br>
+
+    <code>overflow: visible</code>
+    <div class="exemplo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <code>overflow: hidden</code>
+    <div id="hidden" class="exemplo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+    </div>
+
+    <br><br>
+
+    <code>overflow: scroll</code>
+    <div id="scroll" class="exemplo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+    </div>
+
+<br><br>
+
+    <code>overflow: auto</code>
+    <div id="auto" class="exemplo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, necessitatibus nostrum. Non debitis
+            doloribus tempora quibusdam atque assumenda, ipsum pariatur quod at impedit porro consequatur aspernatur
+            nesciunt eligendi corrupti quo.</p>
+    </div>
+
+
+</body>
+
+</html>
